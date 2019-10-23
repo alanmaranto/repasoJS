@@ -66,3 +66,39 @@ switch(signo) {
   default:
   console.log("Ingresa un signo válido")
 }
+
+for (let i = 0; i <= 10; i++){
+  if (i % 2 === 0) {
+    console.log(i)
+  }
+}
+
+//Listas
+
+const lista = []
+console.log(lista)
+let lista2 = [1, 3, "asd", "kj", "adefg", false, true ]
+console.log(lista2)
+lista.push('hola');
+lista.push(9)
+lista.push(false)
+console.log(lista)
+
+for (let i=0; i<lista.length; i++){
+  console.log(lista[i])
+}
+
+//Funciones
+//ECMA5
+function printName(name){
+  console.log(`tu te llamas: ${name}`)
+}
+printName('Alan')
+
+//ECMA6
+const print = (apellido) => {
+  console.log(`tu apellido es: ${apellido}`)
+}
+
+print('maranto')
+
