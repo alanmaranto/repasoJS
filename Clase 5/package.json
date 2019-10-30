@@ -1,0 +1,14 @@
+{
+  "name": "clase-5",
+  "version": "1.0.0",
+  "description": "crear un servidor con require",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alan maranto",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
